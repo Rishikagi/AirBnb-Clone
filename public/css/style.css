@@ -1,0 +1,251 @@
+/* body{
+    background-color: rgb(129, 186, 235);
+    
+} */
+ /* navbar */
+.fa-airbnb{
+    color: #fe424d;
+    font-size: 3rem;
+}
+.navbar{
+    background-color: white;
+    height: 5rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+/* footer */
+.footer-info{
+    margin-top: 7rem !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+    height:15% !important;
+    background-color: whitesmoke;
+    vertical-align: left;
+    margin-bottom: 0rem;
+   
+     position: fixed;
+    left: 0;
+   bottom: 0;
+        width: 100%;
+      
+           
+          
+        
+      
+
+}
+.flinks a{
+    color: #222222;
+    text-decoration: none;
+    width:100%;}
+.head{
+    color: #fe424d;
+}
+    
+
+
+.flinks a:hover{
+    
+    text-decoration: underline;
+}
+.flanguages{
+    color: #222222;
+    width: 100%;
+    
+}
+.fsocial-media{
+    width:100%;
+    
+}
+.fsocial-media i{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.web-limited{
+    width:100%;
+    
+    display: block;
+}
+
+/* cards */
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    margin: 1.5rem;
+    height: 40rem !important;
+    width: 25rem !important;
+
+}
+.row{
+    /* background-color: violet; */
+    padding: 0rem !important;
+    margin: 0rem !important;
+    width: 100% !important;
+    height: 70% !important;
+    padding-top: 1rem !important; 
+    margin-top: 2rem !important;
+    margin-bottom:6rem !important;
+}
+.card-img-top{
+    padding: 0.5rem;
+    border-radius: 2rem !important;
+    height: 65%;
+
+
+}
+.card-body{
+    font-weight: 700 !important;
+}
+.linking{
+    text-decoration: none ;
+
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+h1{
+    margin-left: 2.5rem;
+}
+/* new page */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 5rem !important;
+    /* background-color:rgb(211, 211, 211); */
+}
+.input{
+    width:30rem !important;
+   
+}
+
+.btn{
+    background-color: #fe424d!important;
+    border: none !important;
+}
+/* show page  */
+.btn-del{
+    background-color: #524949 !important;
+    border: none;
+    margin-left: 5rem;
+    
+}
+.info{
+    font-weight: 200;
+    font-style: normal;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 1rem!important;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    margin: 1rem;
+
+}
+.show-img{
+    width: 45rem !important;
+}
+.show-card{
+    width: 47rem !important;
+    border: none !important;
+   
+}
+.card-text{
+    font-size: medium !important;
+}
+.heading{
+    font-size: 1.3rem;
+}
+.err-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 20rem;
+    /* background-color: #fe424d; */
+    padding: 1rem;
+    margin-left: 30%;
+
+}
+.alert{
+    margin: 0.5rem;
+}
+
+.review-card{
+    border: 2px solid rgb(231, 228, 228) !important;
+    padding: 2px;
+    /* width: 30%; */
+    height: fit-content;
+    flex: 0 0 50%; /* Each item takes up 50% of the container's width */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+            
+          
+}
+.cont{
+    display: flex;
+    
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+            
+    
+}.icon{
+    margin-left: 80% !important;
+}
+.btn-success{
+    background-color: green !important;
+}
+.passForg{
+    margin-left: 4rem;
+}.but{
+    background-color: #222222;
+}.align{
+    margin-right: 1rem !important;
+}
+.row-2{
+    margin-bottom: 8rem !important;
+    width: 100%;
+    height: 30rem;
+    /* background-color: aqua; */
+}
+.Already{
+    text-align: center !important;
+}
+.preview {
+    height: 10rem;
+    width: 15rem;
+   
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    display: flex; /* Centers the image if necessary */
+    justify-content: center;
+    align-items: center;
+}
+
+.preview img {
+    width: 100%;  /* Makes the image fit the div's width */
+    height: 100%; /* Makes the image fit the div's height */
+    object-fit: cover; /* Ensures the image fills the div without distortion */
+}
+
+
+/* map */
+
+#map{
+    height: 400px;
+    width: 90%;
+    
+}
