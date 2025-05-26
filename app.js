@@ -57,8 +57,8 @@ app.listen(port,()=>{
     console.log("App is Listining");
 });
 
-Mongoose = "mongodb://127.0.0.1:27017/airbnb"; 
-// const db_URL = process.env.ATLAS_URL;  
+// Mongoose = "mongodb://127.0.0.1:27017/airbnb"; 
+Mongoose = process.env.ATLAS_URL;  
 
 
 try {
